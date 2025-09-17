@@ -5,6 +5,14 @@ We hope these new resources will accelerate the analysis of 3D organ scans and u
 
 ## Digital textbook
 
+We created a new digital textbook, called [Handling Enormous Files from 3D Imaging Experiments](https://heftie-textbook.readthedocs.io/).
+This textbook gives scientists:
+
+- an introduction to the motivation and theory behind chunked datasets
+- a practical introduction to creating chunked datasets, and the configuration options available
+- a guide to designing parallel processing algorithms to work efficiently with chunked datasets
+- a guide to exporting chunked datasets to other 'tradditional' datasets
+
 ## Tools for working with chunked datasets
 
 ## Improvements to cloud visualisation
