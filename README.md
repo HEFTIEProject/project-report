@@ -13,6 +13,30 @@ This textbook gives scientists:
 - a guide to designing parallel processing algorithms to work efficiently with chunked datasets
 - a guide to exporting chunked datasets to other 'tradditional' datasets
 
+## Benchmarking for Zarr
+
+We created a set of benchmarks for writing data to Zarr with a range of different configurations as guidance for the options available when reading and writing 3D imaging data.
+The different parameters were:
+
+- Type of image
+  - Heart: HiP-CT scan of a heart from the Human Organ Atlas
+  - Dense: segmented neurons from electron microscopy
+  - Sparse: A few select segmented neurons from electron microscopy
+- Software libraries
+  - Tensorstore (fastest for both reading and writing data)
+  - zarr-python version 3
+  - zarr-python version 2 (slowest for both reading and writing data)
+- Compressor
+  - blosc-zstd provides the best compression ratio, for image and segmentation data. (options were blosc-blosclz, blosc-lz4, blosc-lz4hc, blosc-zlib, blosc-zstd as well as gzip and zstd)
+- Compression level
+  - Setting compression levels beyond ~3 results in slightly better data compression but much longer write times. Compression level does not affect read time.
+- Shuffle
+  - Setting the shuffle option increases data compression with no adverse effect on read/write times (shuffle, bitshuffle and noshuffle were the 3 options)
+- Zarr format version
+  - There was no noticeable difference between Zarr format 2 and Zarr format 3 data
+- Chunk size
+  - Setting a low chunk size (below around 90) has an adverse effect on read and write times.
+
 ## Tools for working with chunked datasets
 
 ## Improvements to cloud visualisation
