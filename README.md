@@ -39,6 +39,11 @@ The different parameters were:
 
 ## Tools for working with chunked datasets
 
+Contributions have been made to the zarr-python reposistory:
+
+- [Add CLI for converting v2 metadata to v3](https://github.com/zarr-developers/zarr-python/pull/3257)
+- [Added ArrayNotFoundError](https://github.com/zarr-developers/zarr-python/pull/3367)
+
 ## Improvements to cloud visualisation
 
 ## Acknowledgements
