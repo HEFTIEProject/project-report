@@ -39,10 +39,21 @@ The different parameters were:
 
 ## Tools for working with chunked datasets
 
-Contributions have been made to the zarr-python reposistory:
+Contributions have been made to the zarr-python repository:
 
 - [Add CLI for converting v2 metadata to v3](https://github.com/zarr-developers/zarr-python/pull/3257)
 - [Added ArrayNotFoundError](https://github.com/zarr-developers/zarr-python/pull/3367)
+
+PRs have been opened in the zarr-python repository:
+
+- [Prevent creation of arrays/groups under a parent array](https://github.com/zarr-developers/zarr-python/pull/3407)
+- [Holding space - Better document acceptable values for StoreLike]
+- [Holding space - LRUStoreCache]
+
+PRs have also been opened for:
+
+- [Document supported file formats for dask_image.imread](https://github.com/dask/dask-image/issues/407)
+- [Document supported file formats for skimage.io](https://github.com/scikit-image/scikit-image/issues/7879)
 
 ## Improvements to cloud visualisation
 
