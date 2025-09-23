@@ -43,11 +43,11 @@ Contributions have been made to the zarr-python repository:
 
 - [Add CLI for converting v2 metadata to v3](https://github.com/zarr-developers/zarr-python/pull/3257)
 - [Added ArrayNotFoundError](https://github.com/zarr-developers/zarr-python/pull/3367)
+- [Better document acceptable values for StoreLike](https://github.com/zarr-developers/zarr-python/pull/3480)
 
 PRs have been opened in the zarr-python repository:
 
 - [Prevent creation of arrays/groups under a parent array](https://github.com/zarr-developers/zarr-python/pull/3407)
-- [Holding space - Better document acceptable values for StoreLike]
 - [Holding space - LRUStoreCache]
 
 PRs have also been opened for:
