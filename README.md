@@ -15,7 +15,7 @@ This textbook gives scientists:
 
 ## Benchmarking for Zarr
 
-We created a set of benchmarks for writing data to Zarr with a range of different configurations as guidance for the options available when reading and writing 3D imaging data.
+We created a [set of benchmarks](https://github.com/HEFTIEProject/zarr-benchmarks) for reading / writing data to Zarr with a range of different configurations. These benchmarks provide guidance on how selection of different configurations affect data size and read/write performance. 
 The different parameters were:
 
 - Type of image
