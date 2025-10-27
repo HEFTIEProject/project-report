@@ -57,4 +57,9 @@ PRs have also been opened for:
 
 ## Improvements to cloud visualisation
 
+- Evaluated "Segment Anything 2"-based quick-select feature for 3D annotation of X-Ray tomography data
+- [Added of arbitrary rotation of orthogonal viewports](https://github.com/scalableminds/webknossos/issues/7569)
+- [Added selective segment visibility (don't show all segments always)](https://github.com/scalableminds/webknossos/issues/7891)
+- [Added key-value metadata fields for segments and skeleton trees](https://github.com/scalableminds/webknossos/issues/7483)
+
 ## Acknowledgements
