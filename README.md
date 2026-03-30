@@ -48,7 +48,7 @@ Contributions have been made to the zarr-python repository:
 PRs have been opened in the zarr-python repository:
 
 - [Prevent creation of arrays/groups under a parent array](https://github.com/zarr-developers/zarr-python/pull/3407)
-- [Holding space - LRUStoreCache]
+- [Store cache](https://github.com/zarr-developers/zarr-python/pull/3366)
 
 PRs have also been opened for:
 
